@@ -18,7 +18,7 @@ No dependency on other Ansible Galaxy roles.
 
     - hosts: servers
       roles:
-        - { role: username.rolename, x: 42 }
+        - { role: hspaans.phpmyadmin }
 
 ## License
 
