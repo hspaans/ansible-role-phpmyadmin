@@ -46,6 +46,6 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v3.13.5
         env:
-          FILTER_REGEX_EXCLUDE: .git/.*
+          FILTER_REGEX_EXCLUDE: .*git/.*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANSIBLE_DIRECTORY: /
