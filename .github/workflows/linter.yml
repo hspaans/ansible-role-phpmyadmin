@@ -47,6 +47,6 @@ jobs:
         uses: github/super-linter@v3.13.5
         env:
           OUTPUT_FORMAT: tap
-          FILTER_REGEX_EXCLUDE: .*git/.*
+          VALIDATE_EDITORCONFIG: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANSIBLE_DIRECTORY: /
