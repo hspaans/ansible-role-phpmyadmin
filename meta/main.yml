@@ -10,10 +10,11 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - all
+        - stretch
     - name: Ubuntu
       versions:
-        - all
+        - bionic
+        - focal
 
   galaxy_tags:
     - php
