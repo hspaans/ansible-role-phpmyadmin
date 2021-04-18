@@ -10,14 +10,17 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - all
+        - stretch
+        - bullseye
     - name: Ubuntu
       versions:
-        - all
+        - bionic
+        - focal
 
   galaxy_tags:
     - php
     - mysql
     - mariadb
+    - mysql
 
 dependencies: []

@@ -6,11 +6,11 @@ driver:
 lint: |
   set -e
   yamllint .
-  ansible-lint
+  # ansible-lint
   flake8
 platforms:
   - name: instance
-    image: "ghcr.io/hspaans/molecule-container-debian:9"
+    image: "ghcr.io/hspaans/molecule-container-${MOLECULE_DISTRO}"
     command: ""
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
