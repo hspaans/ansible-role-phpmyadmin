@@ -11,6 +11,7 @@ galaxy_info:
     - name: Debian
       versions:
         - stretch
+        - bullseye
     - name: Ubuntu
       versions:
         - bionic
@@ -20,5 +21,6 @@ galaxy_info:
     - php
     - mysql
     - mariadb
+    - mysql
 
 dependencies: []
