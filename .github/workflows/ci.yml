@@ -21,8 +21,6 @@ jobs:
         uses: github/super-linter@v4.2.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANSIBLE_DIRECTORY: /
-          VALIDATE_ANSIBLE: false
 
   molecule:
     needs: lint
